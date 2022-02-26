@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment_style.css">
+    <title>Paymeny form</title>
+
+
+
+</head>
+
+<body>
+    <form action="" name="myForm" onsubmit=" return username()">
+        <fieldset id="qwe">
+            <legend>
+                <h1>Payment Form</h1>
+            </legend>
+            <h5>Required Fields are followed by <b class="imp">*</b></h5>
+            <h2>&#9830; &#92;&#92;&#92;&#92; Contact Information </h2>
+            <p>Username: <b class="imp">*</b></p><input type="text" name="username" placeholder="Username" required>
+            <fieldset id="qwe_sec">
+                <legend id="gender">Gender <b class="imp">*</b></legend>
+                <label class="container">Male
+                    <input type="radio" name="gender" checked>
+                    <span class="check"></span>
+                  </label>
+                <label class="container">Female
+                    <input type="radio" name="gender">
+                    <span class="check"></span>
+                  </label>
+                <label class="container">Transgender
+                    <input type="radio" name="gender">
+                    <span class="check"></span>
+                  </label>
+            </fieldset>
+            <p>Address: <b class="imp">*</b></p>
+            <textarea name="address" id="address" cols="100" rows="10" placeholder="Fill Your Address" required></textarea>
+            <p>Email: <b class="imp">*</b></p>
+            <input type="email" name="email" id="email" placeholder="User e-mail id" required>
+            <p>Pincode: <b class="imp">*</b></p>
+            <input type="number" name="pincode" id="pincode" placeholder="Enter Your Pincode" required>
+            <h2> &#9830; &#92;&#92;&#92;&#92; Payment Information</h2>
+            <p>Card type: <b class="imp">*</b></p>
+            <select name="card_type" id="card_type" required>
+                    <option value="">---Select a Card Type---</option>
+                    <option value="visa">Visa</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="mastercard">Mastercard</option>
+                </select>
+            <p> Card Number <b class="imp">*</b> </p>
+            <input type="number" name="card_number" id="card_number" placeholder="Enter your Card Number" required>
+            <p>Expiration Date: <b class="imp">*</b></p>
+            <input type="Date" name="exp_date" id="exp_date" placeholder="Enter Exp Date" required>
+
+            <p>CVV <b class="imp">*</b></p>
+            <input type="password" name="cvv" id="cvv" placeholder="Enter Your Card CVV Number" required>
+
+            <span id="button">
+            <input type="submit" value="Pay Now">
+            <input type="reset" value="Reset">
+        </span>
+    </form>
+    </fieldset>
+
+
+    <!-- <script src="payment_val.js"></script> -->
+
+</body>
+
+</html>

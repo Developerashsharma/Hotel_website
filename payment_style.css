@@ -1,0 +1,319 @@
+/* <!-- styling code hear --> */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#qwe {
+    color: #000080;
+    /* text-shadow: green ; */
+    border-color: gray;
+    padding: 10px;
+    /* margin: 10px; */
+    background: linear-gradient(0.25turn, #9ACD32, #ebf8e1, #9370DB);
+    border-top: #3f87a6;
+}
+
+#qwe legend h1 {
+    font-size: 25px;
+    align-items: center;
+    /* background-color: lightblue; */
+    color: rgb(0, 140, 255);
+    font-weight: 900;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#qwe h5 {
+    color: red;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+#qwe h2 {
+    color: #FF00FF;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-weight: 800;
+    text-shadow: 3px 3px 2px gray;
+    /* text-decoration: underline; */
+}
+
+#qwe p {
+    padding-left: 50px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+#qwe_sec {
+    border-color: #ebf8e1;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    width: 74%;
+}
+
+#gender {
+    color: navy;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px #fff;
+}
+
+#qwe input {
+    /* background-color: transparent; */
+    border-color: #BDB76B;
+    color: rgb(20, 18, 18);
+    margin-left: 100px;
+    width: 70%;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 15px;
+    /* box-sizing: content-box; */
+    height: 25px;
+    margin-bottom: 20px;
+    border-collapse: separate;
+    box-shadow: 2px 2px 4px red;
+}
+
+#qwe textarea {
+    margin-left: 100px;
+    width: 70%;
+    font-size: 15px;
+    font-weight: 800;
+    height: 25px;
+    padding-bottom: 25px;
+    box-shadow: 2px 2px 4px red;
+    margin-bottom: 20px;
+}
+
+#qwe select {
+    text-align: center;
+    margin-left: 100px;
+    width: 70%;
+    height: 30px;
+    box-shadow: 2px 2px 4px red;
+    margin-bottom: 20px;
+    font-size: 20px;
+    /* box-sizing: content-box; */
+}
+
+.imp {
+    color: red;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#button input {
+    background-color: #9370DB;
+    color: #800400;
+    margin-top: 3%;
+    width: 25%;
+    margin-left: 10%;
+    height: 35px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px #000;
+}
+
+#button input:hover {
+    background-color: orangered;
+    color: #fff;
+}
+
+option {
+    font-size: 20px;
+}
+
+@media(max-width:500px) {
+    #qwe {
+        color: navy;
+        background: linear-gradient(0.25turn, #E75480, #F3E3C3, #9ACD32);
+    }
+    #qwe legend h1 {
+        font-size: 20px;
+        color: #000;
+        font-weight: 900;
+        text-shadow: 2px 2px 2px springgreen;
+    }
+    #qwe h5 {
+        color: #0000A0;
+        font-size: 12px;
+    }
+    #qwe h2 {
+        color: red;
+        padding-top: 20px;
+        padding-left: 6px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        text-shadow: 1px 1px 2px #fff, 3px 3px 3px #000;
+    }
+    @media(max-width:350px) {
+        #qwe h2 {
+            color: red;
+            padding-top: 20px;
+            padding-left: 6px;
+            padding-bottom: 10px;
+            font-size: 15px;
+            text-shadow: 1px 1px 2px #fff, 3px 3px 3px #000;
+        }
+    }
+    #qwe p {
+        padding-left: 35px;
+        font-weight: 800;
+        padding-bottom: 1px;
+    }
+    #qwe_sec {
+        border-color: red;
+        margin-left: 35px;
+        width: 74%;
+    }
+    #gender {
+        color: #800400;
+        text-shadow: 2px 2px 2px #fff;
+    }
+    #qwe input {
+        background-color: #AAF0D1;
+        border: none;
+        color: rgb(20, 18, 18);
+        margin-left: 50px;
+        font-size: 15px;
+        box-sizing: content-box;
+        box-shadow: 3px 3px 4px indigo;
+    }
+    #qwe textarea {
+        margin-left: 50px;
+        background-color: #AAF0D1;
+        box-shadow: 3px 3px 4px indigo;
+        height: 70px;
+    }
+    #qwe select {
+        margin-left: 50px;
+        background-color: #AAF0D1;
+        box-shadow: 3px 3px 4px indigo;
+        font-size: 16px;
+        font-weight: 700;
+        box-sizing: content-box;
+    }
+    option {
+        background-color: #fff;
+        width: 50%;
+    }
+    #button input {
+        color: red;
+        margin-top: 3%;
+        width: 30%;
+        margin-left: 12%;
+        height: 35px;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px red;
+    }
+    #button input:hover {
+        background-color: orangered;
+        color: #fff;
+        box-shadow: 2px 2px 2px navy;
+    }
+}
+
+
+/* javatutoial point radio button  */
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 55px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+/* Hide the default radio button */
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* custom radio button */
+
+.check {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    height: 25px;
+    width: 25px;
+    background-color: #9370DB;
+    border-radius: 50%;
+    margin-left: 145px;
+}
+
+.container:hover input~.check {
+    background-color: #fff;
+}
+
+.container input:checked~.check {
+    background-color: blue;
+    margin-left: 145px;
+}
+
+.check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked~.check:after {
+    display: block;
+    /* margin-left: 30px; */
+}
+
+.container .check:after {
+    top: 5px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+
+/* code end javatutorial */
+
+@media(max-width:500px) {
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 15px;
+        padding-top: 08px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 800;
+    }
+    .check {
+        top: 5px;
+        height: 20px;
+        width: 20px;
+        background-color: #9370DB;
+        border-radius: 50%;
+        margin-left: 85px;
+    }
+    .container input:checked~.check {
+        background-color: red;
+        margin-left: 85px;
+    }
+    .container .check:after {
+        top: 5px;
+        left: 5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #fff;
+    }
+}
